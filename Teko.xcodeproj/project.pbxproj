@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84023D0D26CD0745000D6A14 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84023D0C26CD0745000D6A14 /* MainTabBarViewController.swift */; };
+		84023D1526CD0A9B000D6A14 /* GifCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84023D1426CD0A9B000D6A14 /* GifCollectionViewController.swift */; };
 		84FCC1C626CC529500494832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC1C526CC529500494832 /* AppDelegate.swift */; };
 		84FCC1C826CC529500494832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC1C726CC529500494832 /* SceneDelegate.swift */; };
 		84FCC1CA26CC529500494832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC1C926CC529500494832 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84023D0C26CD0745000D6A14 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		84023D1426CD0A9B000D6A14 /* GifCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectionViewController.swift; sourceTree = "<group>"; };
 		84FCC1C226CC529500494832 /* Teko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FCC1C526CC529500494832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FCC1C726CC529500494832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84023D0E26CD0985000D6A14 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC1D326CC529600494832 /* Info.plist */,
+				84FCC1CE26CC529600494832 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		84023D0F26CD09A2000D6A14 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				84023D1126CD09C4000D6A14 /* Controller */,
+				84023D1026CD09B6000D6A14 /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		84023D1026CD09B6000D6A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC1D026CC529600494832 /* LaunchScreen.storyboard */,
+				84FCC1CB26CC529500494832 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84023D1126CD09C4000D6A14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC1C526CC529500494832 /* AppDelegate.swift */,
+				84FCC1C726CC529500494832 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84023D1226CD0A05000D6A14 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				84023D1326CD0A16000D6A14 /* Controller */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		84023D1326CD0A16000D6A14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84023D0C26CD0745000D6A14 /* MainTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		84FCC1B926CC529500494832 = {
 			isa = PBXGroup;
 			children = (
@@ -59,13 +115,11 @@
 		84FCC1C426CC529500494832 /* Teko */ = {
 			isa = PBXGroup;
 			children = (
-				84FCC1C526CC529500494832 /* AppDelegate.swift */,
-				84FCC1C726CC529500494832 /* SceneDelegate.swift */,
+				84023D1226CD0A05000D6A14 /* MainTabBar */,
+				84023D0F26CD09A2000D6A14 /* Application */,
+				84023D0E26CD0985000D6A14 /* Resource */,
 				84FCC1C926CC529500494832 /* ViewController.swift */,
-				84FCC1CB26CC529500494832 /* Main.storyboard */,
-				84FCC1CE26CC529600494832 /* Assets.xcassets */,
-				84FCC1D026CC529600494832 /* LaunchScreen.storyboard */,
-				84FCC1D326CC529600494832 /* Info.plist */,
+				84023D1426CD0A9B000D6A14 /* GifCollectionViewController.swift */,
 			);
 			path = Teko;
 			sourceTree = "<group>";
@@ -142,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FCC1CA26CC529500494832 /* ViewController.swift in Sources */,
+				84023D1526CD0A9B000D6A14 /* GifCollectionViewController.swift in Sources */,
+				84023D0D26CD0745000D6A14 /* MainTabBarViewController.swift in Sources */,
 				84FCC1C626CC529500494832 /* AppDelegate.swift in Sources */,
 				84FCC1C826CC529500494832 /* SceneDelegate.swift in Sources */,
 			);
@@ -220,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +348,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = Teko/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Teko/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +368,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = Teko/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Teko/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
