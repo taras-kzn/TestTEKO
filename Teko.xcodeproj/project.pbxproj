@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A6C48F26CD5E8100644918 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C48E26CD5E8100644918 /* NetworkService.swift */; };
+		84A6C49126CE57AC00644918 /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C49026CE57AC00644918 /* NetworkData.swift */; };
+		84A6C49626CE949100644918 /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C49526CE949100644918 /* GifCell.swift */; };
+		84C9478726D59A030086785A /* DataUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9478626D59A030086785A /* DataUrl.swift */; };
+		84C9478D26D688570086785A /* ImageGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9478C26D688570086785A /* ImageGif.swift */; };
+		84C9478F26D6E8540086785A /* UICollectionView+RealmChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9478E26D6E8540086785A /* UICollectionView+RealmChanges.swift */; };
+		84C9479226D766010086785A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9479126D766010086785A /* Coordinator.swift */; };
+		84C9479426D766200086785A /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9479326D766200086785A /* Storyboarded.swift */; };
+		84C9479626D766490086785A /* MainCoordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9479526D766490086785A /* MainCoordinators.swift */; };
+		84C9B20726D3F711007C3840 /* LikeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9B20526D3F711007C3840 /* LikeViewCell.swift */; };
+		84C9B20826D3F711007C3840 /* LikeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C9B20626D3F711007C3840 /* LikeViewCell.xib */; };
+		84C9B20C26D3F7D7007C3840 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9B20B26D3F7D7007C3840 /* LikeViewController.swift */; };
+		84C9B21026D43932007C3840 /* DataProviderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9B20F26D43932007C3840 /* DataProviderImage.swift */; };
 		84FCC1C626CC529500494832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC1C526CC529500494832 /* AppDelegate.swift */; };
 		84FCC1C826CC529500494832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC1C726CC529500494832 /* SceneDelegate.swift */; };
-		84FCC1CA26CC529500494832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC1C926CC529500494832 /* ViewController.swift */; };
+		84FCC1CA26CC529500494832 /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCC1C926CC529500494832 /* GifViewController.swift */; };
 		84FCC1CD26CC529500494832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCC1CB26CC529500494832 /* Main.storyboard */; };
 		84FCC1CF26CC529600494832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FCC1CE26CC529600494832 /* Assets.xcassets */; };
 		84FCC1D226CC529600494832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCC1D026CC529600494832 /* LaunchScreen.storyboard */; };
 		84FCC1DA26CC52D000494832 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 84FCC1D926CC52D000494832 /* .gitignore */; };
+		C3DACCC096E010FA13CE3FF7 /* Pods_Teko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581A9C86D1C2AC6D7677A4B7 /* Pods_Teko.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		343765C0C41A86FCB79F693B /* Pods-Teko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teko.debug.xcconfig"; path = "Target Support Files/Pods-Teko/Pods-Teko.debug.xcconfig"; sourceTree = "<group>"; };
+		581A9C86D1C2AC6D7677A4B7 /* Pods_Teko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A6C48E26CD5E8100644918 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		84A6C49026CE57AC00644918 /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
+		84A6C49526CE949100644918 /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCell.swift; sourceTree = "<group>"; };
+		84C9478626D59A030086785A /* DataUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUrl.swift; sourceTree = "<group>"; };
+		84C9478C26D688570086785A /* ImageGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGif.swift; sourceTree = "<group>"; };
+		84C9478E26D6E8540086785A /* UICollectionView+RealmChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RealmChanges.swift"; sourceTree = "<group>"; };
+		84C9479126D766010086785A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		84C9479326D766200086785A /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		84C9479526D766490086785A /* MainCoordinators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinators.swift; sourceTree = "<group>"; };
+		84C9B20526D3F711007C3840 /* LikeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewCell.swift; sourceTree = "<group>"; };
+		84C9B20626D3F711007C3840 /* LikeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeViewCell.xib; sourceTree = "<group>"; };
+		84C9B20B26D3F7D7007C3840 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		84C9B20F26D43932007C3840 /* DataProviderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderImage.swift; sourceTree = "<group>"; };
 		84FCC1C226CC529500494832 /* Teko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FCC1C526CC529500494832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FCC1C726CC529500494832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84FCC1C926CC529500494832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84FCC1C926CC529500494832 /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
 		84FCC1CC26CC529500494832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FCC1CE26CC529600494832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FCC1D126CC529600494832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FCC1D326CC529600494832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FCC1D926CC52D000494832 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EDEC1C1186C55407B5B347A0 /* Pods-Teko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teko.release.xcconfig"; path = "Target Support Files/Pods-Teko/Pods-Teko.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +63,137 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DACCC096E010FA13CE3FF7 /* Pods_Teko.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84023D0E26CD0985000D6A14 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC1D326CC529600494832 /* Info.plist */,
+				84FCC1CE26CC529600494832 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		84023D0F26CD09A2000D6A14 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				84023D1126CD09C4000D6A14 /* Controller */,
+				84023D1026CD09B6000D6A14 /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		84023D1026CD09B6000D6A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC1D026CC529600494832 /* LaunchScreen.storyboard */,
+				84FCC1CB26CC529500494832 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84023D1126CD09C4000D6A14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC1C526CC529500494832 /* AppDelegate.swift */,
+				84FCC1C726CC529500494832 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84023D1626CD10E9000D6A14 /* GifCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				84FCC1C926CC529500494832 /* GifViewController.swift */,
+				84A6C49526CE949100644918 /* GifCell.swift */,
+			);
+			path = GifCollectionView;
+			sourceTree = "<group>";
+		};
+		84A6C48C26CD5E5800644918 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84A6C48E26CD5E8100644918 /* NetworkService.swift */,
+				84A6C49026CE57AC00644918 /* NetworkData.swift */,
+				84C9B20F26D43932007C3840 /* DataProviderImage.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84C9478226D599A70086785A /* LikeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C9478426D599C00086785A /* Controller */,
+				84C9478326D599BA0086785A /* View */,
+			);
+			path = LikeViewController;
+			sourceTree = "<group>";
+		};
+		84C9478326D599BA0086785A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C9B20526D3F711007C3840 /* LikeViewCell.swift */,
+				84C9B20626D3F711007C3840 /* LikeViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C9478426D599C00086785A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C9B20B26D3F7D7007C3840 /* LikeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C9478526D599E70086785A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84C9478626D59A030086785A /* DataUrl.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84C9478826D59DBF0086785A /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				84C9478526D599E70086785A /* Models */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		84C9478B26D688210086785A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84C9478C26D688570086785A /* ImageGif.swift */,
+				84C9478E26D6E8540086785A /* UICollectionView+RealmChanges.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84C9479026D765E60086785A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				84C9479126D766010086785A /* Coordinator.swift */,
+				84C9479326D766200086785A /* Storyboarded.swift */,
+				84C9479526D766490086785A /* MainCoordinators.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		84FCC1B926CC529500494832 = {
 			isa = PBXGroup;
 			children = (
 				84FCC1D926CC52D000494832 /* .gitignore */,
 				84FCC1C426CC529500494832 /* Teko */,
 				84FCC1C326CC529500494832 /* Products */,
+				F290AD0BFFE2EE790E6BCD44 /* Pods */,
+				E086E015CC462B376B87A265 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +208,33 @@
 		84FCC1C426CC529500494832 /* Teko */ = {
 			isa = PBXGroup;
 			children = (
-				84FCC1C526CC529500494832 /* AppDelegate.swift */,
-				84FCC1C726CC529500494832 /* SceneDelegate.swift */,
-				84FCC1C926CC529500494832 /* ViewController.swift */,
-				84FCC1CB26CC529500494832 /* Main.storyboard */,
-				84FCC1CE26CC529600494832 /* Assets.xcassets */,
-				84FCC1D026CC529600494832 /* LaunchScreen.storyboard */,
-				84FCC1D326CC529600494832 /* Info.plist */,
+				84C9479026D765E60086785A /* Coordinator */,
+				84C9478B26D688210086785A /* Extension */,
+				84C9478826D59DBF0086785A /* Realm */,
+				84C9478226D599A70086785A /* LikeViewController */,
+				84A6C48C26CD5E5800644918 /* Service */,
+				84023D1626CD10E9000D6A14 /* GifCollectionView */,
+				84023D0F26CD09A2000D6A14 /* Application */,
+				84023D0E26CD0985000D6A14 /* Resource */,
 			);
 			path = Teko;
+			sourceTree = "<group>";
+		};
+		E086E015CC462B376B87A265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				581A9C86D1C2AC6D7677A4B7 /* Pods_Teko.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F290AD0BFFE2EE790E6BCD44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				343765C0C41A86FCB79F693B /* Pods-Teko.debug.xcconfig */,
+				EDEC1C1186C55407B5B347A0 /* Pods-Teko.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FCC1D626CC529600494832 /* Build configuration list for PBXNativeTarget "Teko" */;
 			buildPhases = (
+				867671E5917C7314F16594BE /* [CP] Check Pods Manifest.lock */,
 				84FCC1BE26CC529500494832 /* Sources */,
 				84FCC1BF26CC529500494832 /* Frameworks */,
 				84FCC1C026CC529500494832 /* Resources */,
+				CC6E50A470BAE310AB4EAF12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FCC1DA26CC52D000494832 /* .gitignore in Resources */,
+				84C9B20826D3F711007C3840 /* LikeViewCell.xib in Resources */,
 				84FCC1D226CC529600494832 /* LaunchScreen.storyboard in Resources */,
 				84FCC1CF26CC529600494832 /* Assets.xcassets in Resources */,
 				84FCC1CD26CC529500494832 /* Main.storyboard in Resources */,
@@ -136,14 +306,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		867671E5917C7314F16594BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teko-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6E50A470BAE310AB4EAF12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teko/Pods-Teko-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teko/Pods-Teko-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teko/Pods-Teko-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84FCC1BE26CC529500494832 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FCC1CA26CC529500494832 /* ViewController.swift in Sources */,
+				84FCC1CA26CC529500494832 /* GifViewController.swift in Sources */,
+				84C9479226D766010086785A /* Coordinator.swift in Sources */,
+				84C9478F26D6E8540086785A /* UICollectionView+RealmChanges.swift in Sources */,
 				84FCC1C626CC529500494832 /* AppDelegate.swift in Sources */,
+				84C9B21026D43932007C3840 /* DataProviderImage.swift in Sources */,
+				84C9478D26D688570086785A /* ImageGif.swift in Sources */,
+				84C9B20C26D3F7D7007C3840 /* LikeViewController.swift in Sources */,
+				84A6C49126CE57AC00644918 /* NetworkData.swift in Sources */,
+				84C9B20726D3F711007C3840 /* LikeViewCell.swift in Sources */,
+				84A6C49626CE949100644918 /* GifCell.swift in Sources */,
+				84A6C48F26CD5E8100644918 /* NetworkService.swift in Sources */,
+				84C9478726D59A030086785A /* DataUrl.swift in Sources */,
 				84FCC1C826CC529500494832 /* SceneDelegate.swift in Sources */,
+				84C9479626D766490086785A /* MainCoordinators.swift in Sources */,
+				84C9479426D766200086785A /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,17 +511,19 @@
 		};
 		84FCC1D726CC529600494832 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343765C0C41A86FCB79F693B /* Pods-Teko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = Teko/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Teko/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = denis.Teko;
+				PRODUCT_BUNDLE_IDENTIFIER = denis.TekoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,17 +532,19 @@
 		};
 		84FCC1D826CC529600494832 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEC1C1186C55407B5B347A0 /* Pods-Teko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = Teko/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Teko/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = denis.Teko;
+				PRODUCT_BUNDLE_IDENTIFIER = denis.TekoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
