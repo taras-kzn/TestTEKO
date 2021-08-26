@@ -6,15 +6,21 @@
 //
 
 import UIKit
+import RealmSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        Realm.Configuration.defaultConfiguration = Realm.Configuration(deleteRealmIfMigrationNeeded: true)
+        initializeRealm()
         return true
+    }
+    
+    private func initializeRealm() {
+      let realm = try! Realm()
+      guard realm.isEmpty else { return }
+        
     }
 
     // MARK: UISceneSession Lifecycle
